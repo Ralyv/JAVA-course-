@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+// Напишете булев израз, който да проверява дали дадено цяло число се дели 
+// на 5 и на 7 без остатък. Изведете резултата.
+
+public class Task_07_01 {
+
+	public static void main(String[] args) {
+		Scanner task_07 = new Scanner(System.in);
+		System.out.println();
+		System.out.println("Въведете цяло число: ");
+		int UserNumber = task_07.nextInt();
+		System.out.println();
+		
+		int number_5 = UserNumber % 5;
+		int number_7 = UserNumber % 7;
+		
+		boolean User = (number_5 == 0 && number_7 == 0);
+		System.out.println("Резултат: " + User);
+		
+		task_07.close();		 
+
+	}
+
+}

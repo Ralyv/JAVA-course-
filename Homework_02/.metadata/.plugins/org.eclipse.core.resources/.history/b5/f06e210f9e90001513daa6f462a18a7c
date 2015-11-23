@@ -1,0 +1,10 @@
+// ƒекларирайте променлива от тип String и отпечатайте следни€ стринг
+// УI will read the УHarry PotterФ book collection.Ф 
+public class Task_04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

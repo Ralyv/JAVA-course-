@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+// Направете програма, която приема две цели числа - 
+// съответно страната и височината на триъгълник. 
+// Пресметнете лицето на дадения триъгълник и я изведете на конзолата.
+
+public class Task_10 {
+	
+	    public static void main(String[] args) {
+	    	Scanner task_10 = new Scanner(System.in);
+	    	System.out.println("Въведете височина 'h':");
+	    	short h = task_10.nextShort();
+	    	
+	    	System.out.println("Въведете страната 'а':");
+	    	short a = task_10.nextShort();
+	    	
+	    	System.out.println("Височина: h = " + h);
+	    	System.out.println("Страна: а = " + a);
+	    	
+	    	int Area = (h * a) / 2;
+	    	System.out.println("Лице на триъгълника: S = " + Area);
+	    	
+	    	task_10.close();
+	    	
+	    	
+	    	
+
+	    }
+}

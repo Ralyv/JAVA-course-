@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+// Напишете проргама която приема 2 целочислени числа за вход и 
+// извежда остатъка от делението на числата.
+ 
+public class Task_09 {
+
+	public static void main(String[] args) {
+		
+	Scanner task_09 = new Scanner(System.in);
+	System.out.println("Въведете цяло число: ");
+	int A = task_09.nextInt();
+	
+	System.out.println("Въведете цяло число: ");
+	int B = task_09.nextInt();
+	
+	System.out.println();
+	System.out.println("Въведено цяло число A = " + A);
+	System.out.println("Въведено цяло число B = " + B);
+	
+	int result = A % B;
+	System.out.println();
+	System.out.println("Oстатък при деление на А и В: " +  result);
+	
+	task_09.close();
+		
+		
+		
+		
+
+	}
+
+}

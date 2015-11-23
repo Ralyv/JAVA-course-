@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Task_09_02 {
+
+	public static void main(String[] args) {
+		
+		Scanner task04 = new Scanner(System.in, "UTF-8");
+		System.out.println("Въведете число: ");
+		int x = task04.nextInt();
+
+		System.out.println("Въведете число: ");
+		int y = task04.nextInt();
+
+		int c = x % y;
+
+		System.out.println("Първо въведено число = " + x);
+		System.out.println("Второ въведено число = " + y);
+		System.out.println("Резултат = " + c);
+
+		task04.close();	}
+
+}

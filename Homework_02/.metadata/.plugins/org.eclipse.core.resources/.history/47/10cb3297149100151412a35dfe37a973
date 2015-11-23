@@ -1,0 +1,11 @@
+// Напишете проргама която приема 2 целочислени числа за вход и 
+// извежда остатъка от делението на числата.
+ 
+public class Task_09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

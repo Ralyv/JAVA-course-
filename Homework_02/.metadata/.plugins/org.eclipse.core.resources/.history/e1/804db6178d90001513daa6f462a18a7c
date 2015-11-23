@@ -1,0 +1,23 @@
+// Дефинирайте две int променливи със стойности 5 и 8. 
+// Опитайте се да размените техните стойности.
+
+public class Task_02 {
+
+	public static void main(String[] args) {
+		
+		int a;
+		int b;
+		
+		a = 5;
+		b = 8;
+		
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		System.out.println();
+		
+		a = b;
+		System.out.println("a = " + a);
+
+	}
+
+}

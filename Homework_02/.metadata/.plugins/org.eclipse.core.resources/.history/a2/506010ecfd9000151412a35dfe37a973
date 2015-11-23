@@ -1,0 +1,11 @@
+// Напишете булев израз, който да проверява дали дадено цяло число се дели 
+// на 5 и на 7 без остатък. Изведете резултатът.
+
+public class Task_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+// Напишете израз, който да проверява дали дадено цяло число е четно или нечетно. 
+// Изведете резултатът.
+
+public class Task_08 {
+
+	public static void main(String[] args) {
+		Scanner task_08 = new Scanner(System.in);
+		System.out.println();
+		System.out.println("Въведете цяло число: ");
+		int UserNumber = task_08.nextInt();
+		System.out.println();
+		
+		int Even = UserNumber % 2;
+		int Odd  = UserNumber % 2;
+		System.out.println("Въведеното цяло число е: " + UserNumber);
+		System.out.println();
+		System.out.println("РЕЗУЛТАТ:");
+		System.out.println();
+		
+		boolean EvenBoolean = (Even == 0);
+		System.out.println(Even + " e ЧЕТНО: " + EvenBoolean);
+		System.out.println();
+		
+		//boolean OddBoolean = (Odd != 0);
+		//System.out.println(Odd + " е НЕЧЕТНО: " + OddBoolean);
+		
+		task_08.close();		 
+
+
+	}
+
+}

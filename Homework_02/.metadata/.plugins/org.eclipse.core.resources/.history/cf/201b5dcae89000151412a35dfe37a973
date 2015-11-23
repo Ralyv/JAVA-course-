@@ -1,0 +1,10 @@
+//Напишете програма, която чете от конзолата четири числа от тип int и отпечатва тяхната сума.
+
+public class Task_05 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

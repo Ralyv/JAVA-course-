@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+//Направете програма, която приема две числа с плаваща запетая 
+//съответно дължината и ширината на правоъгълник. 
+//Пресметнете лицето на дадения правоъгълник и я изведете на конзолата
+
+public class Task_01_02 {
+
+	public static void main(String[] args) {
+		
+		Scanner task_01 = new Scanner(System.in);
+		System.out.println("Въведете стойност за дължина на правоъгълника \"а\"");
+		float a = task_01.nextFloat();
+		
+		System.out.println("Въведете стойност за ширина на правоъгълника \"b\"");
+		float b = task_01.nextFloat();
+		
+		System.out.println();
+		System.out.println("Дължина = " + a);
+		System.out.println("Ширина = " + b);
+		
+		System.out.println();
+		System.out.println("Лице на правоъгълник = " + (a*b));
+		
+	task_01.close();
+	}
+
+}
